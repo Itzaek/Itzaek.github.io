@@ -2,36 +2,30 @@
 <html>
   <head>
   <style>
-  ul {
-    list-style-type: none;
-    background-color: #fffff;
-    position: fixed;
-    width: 100vh;
-    height: 45px;
+    .main-nav {
+    width:100vh;
+    height:45px;
+    position:fixed;
+    background:#4c4c4c;
     -webkit-transform-origin: left top;
-    -webkit-transform: rotate(-90deg) translateX(100%);
+    -webkit-transform:rotate(-90deg) translateX(-100%);
   }
-  li {
-    display: block;
-    color: #565300;
-    text-align: center;
-    float: right;
-    width: 100%;
-    line-height: 45px;
-    font-family: "Verdana";
-  }
-  li:hover {
-    background-color: #555;
-    color: white;
+  ul.nav li {
+    margin-right:20px;
+    float:right;
+    height:100%;
+    line-height:45px;
   }
   </style>
   </head>
   <body>
-  <ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>Projects</li>
-  </ul>
+    <div class="main-nav">
+          <ul class="nav">
+            <li><Home</li>
+            <li><About</li>
+            <li><Projects</li>
+          </ul>
+     </div>
 
 </body>
 
